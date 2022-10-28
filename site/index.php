@@ -8,6 +8,8 @@
                     $players = json_decode($json)->players;
                     foreach ($players as $player)
                         echo "<li>$player</li>";
+                
+                    echo "Test"
                 ?>
             </ul>
         </h1>
